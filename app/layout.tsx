@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 import 'video.js/dist/video-js.css';
+import Footer from '@/components/Footer';
 //import 'codemirror/lib/codemirror.css';
 
 export const metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={''}>
-        <Navbar /> {children}
+        <Navbar /> {children} <Footer />
       </body>
     </html>
   );

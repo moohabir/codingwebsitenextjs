@@ -21,7 +21,7 @@ export default function VideoCodeEditor() {
   });
 
   return (
-    <div className="flex justify-center flex-col items-center p-4">
+    <div className="flex justify-center m-autoflex-col items-center p-4">
       <h1>Watch and Play tutorial videos</h1>
       <video
         controls
