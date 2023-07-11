@@ -2,7 +2,7 @@
 import Editor from '@monaco-editor/react';
 import { useState } from 'react';
 
-const files = {
+const files: any = {
   'index.html': {
     name: 'index.html',
     language: 'html',
